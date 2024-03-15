@@ -86,7 +86,7 @@ const Home = () => {
 
                     {/* CHATS */}
 
-                    <div className="overflow-y-auto h-screen bg-stone-50   scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 w-full flex flex-col justify-center gap-3 p-3">
+                    <div className="overflow-y-auto h-[80%] sm:pt-10 pt-16 bg-stone-50   scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 w-full flex flex-col justify-center gap-3 p-3">
                         {
                             ChartData.map((item, i) => (
                                 <div className="grid grid-cols-12 gap-2 border-b pb-[10px] cursor-pointer  sm:gap-0 xl:-space-x-4 space-x-1 md:space-x-2 items-center" key={i}>
